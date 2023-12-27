@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('./theme.css');
+
 @layer utilities {
   .active-theme {
     filter: invert(53%) sepia(98%) saturate(3332%) hue-rotate(0deg)

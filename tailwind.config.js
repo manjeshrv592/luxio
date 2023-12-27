@@ -9,14 +9,20 @@ module.exports = {
     './src/**/*.{js,jsx}',
   ],
   theme: {
-    container: {
-      center: true,
-      padding: '2rem',
-      screens: {
-        '2xl': '1400px',
-      },
+    screens: {
+      sm: '576px',
+      md: '768px',
+      lg: '992px',
+      xl: '1200px',
+      xxl: '1400px',
     },
     extend: {
+      height: {
+        screen: '100dvh',
+      },
+      minHeight: {
+        screen: '100dvh',
+      },
       fontFamily: {
         sans: ['var(--font-sans)', ...fontFamily.sans],
       },
