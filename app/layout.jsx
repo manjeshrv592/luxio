@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
     <html lang='en'>
       <body
         className={cn(
-          'min-h-screen  font-sans antialiased bg-luxio-grey-50 text-luxio-grey-700 dark:bg-luxio-grey-900 dark:text-luxio-grey-300',
+          'min-h-screen  font-sans antialiased bg-luxio-grey-50 text-luxio-grey-700 dark:bg-luxio-grey-800 dark:text-luxio-grey-200',
           fontSans.variable
         )}>
         <ThemeProvider>{children}</ThemeProvider>

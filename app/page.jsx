@@ -1,11 +1,7 @@
-import React from 'react';
+import DesktopNav from '@/components/navs/DesktopNav';
 
 const page = () => {
-  return (
-    <>
-      <h1>Hello Luxio</h1>
-    </>
-  );
+  return <DesktopNav />;
 };
 
 export default page;
